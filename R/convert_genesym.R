@@ -1,7 +1,7 @@
 # Converting Ensembl ID to gene symbol
 #
 # @export
-convert_genesym <- function (ms) {
+convert_genesym <- function () {
   ms1 <<- as.data.frame(ms)
   msgene <<- mapIds(org.Mm.eg.db, keys = ms1$id, keytype = "ENSEMBL", column = "SYMBOL")
   ms2 <<- cbind(msgene, ms1)
