@@ -2,9 +2,11 @@
 #
 # @export
 convert_genesym <- function (ms) {
-  ms <- as.data.frame(ms)
-  msgene <- mapIds(org.Mm.eg.db, keys = ms$id, keytype = "ENSEMBL", column = "SYMBOL")
-  ms <- cbind(msgene, ms)
-  ms$id <- NULL
-  ms <- na.omit(ms)
+  ms1 <<- as.data.frame(ms)
+  msgene <<- mapIds(org.Mm.eg.db, keys = ms1$id, keytype = "ENSEMBL", column = "SYMBOL")
+  ms2 <<- cbind(msgene, ms1)
+  ms2$id <<- NULL
+  ms3 <<- na.omit(ms2)
+  ms <<- ms3
 }
+
