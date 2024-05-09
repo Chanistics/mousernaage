@@ -1,10 +1,11 @@
 Package: mousernaage
 Title: RNA Age calculator with public bulk seq data
-Version: 0.0.0.9000
+Version: 0.0.0.1
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person("Chan Rim", "Min-Soo Kwon", role = c("cre", "aut"))
+Description: To comparing the transcriptome age based on the mouse bulk RNA seq (RNA Age Calc), specific data curation is needed. this package can make the data curation process easier. 
+prereq(), loadlib(),convert_genesym(), mhconvert(), rmdup().  
+
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
