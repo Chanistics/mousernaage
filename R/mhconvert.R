@@ -1,5 +1,6 @@
 #Converting mouse gene symbol to human gene symbol
-#
+# @param . csv file
+# @return . csv file
 # @export
 mhconvert <-function() {
   Geneid = ms$msgene %>% convert_mouse_to_human_symbols()

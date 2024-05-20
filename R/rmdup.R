@@ -1,5 +1,6 @@
 # Removing duplicated gene names
-#
+# @param . csv file
+# @return . csv file
 # @export
 rmdup <-function() {
   prac <<- read.csv(file = "~/Desktop/R/hu.csv")

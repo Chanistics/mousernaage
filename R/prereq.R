@@ -1,7 +1,7 @@
 # install prerequisite packages
-# 
+# @param . csv file
+# @return . csv file
 # @export
-
 prereq <- function() {
   devtools::install_github("saeyslab/nichenetr") 
   #BiocManager 
