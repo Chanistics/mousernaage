@@ -1,7 +1,10 @@
-# Converting Ensembl ID to gene symbol
-# @param . csv file
-# @return . csv file
-# @export
+#' convert_genesym
+#'
+#' convert ENSEMBL ID to Official gene symbol
+#'
+#'
+#' @param () 함수의 input parameter
+#' @export
 convert_genesym <- function () {
   ms1 <<- as.data.frame(ms)
   msgene <<- mapIds(org.Mm.eg.db, keys = ms1$id, keytype = "ENSEMBL", column = "SYMBOL")

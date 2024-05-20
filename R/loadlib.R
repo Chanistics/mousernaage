@@ -1,8 +1,11 @@
-# Load essential library
-# @param . csv file
-# @return . csv file
-# @export
-
+#' loadlib
+#'
+#' loading pre-requisite library
+#'
+#'
+#' @param () 함수의 input parameter
+#' @export
+#'
 loadlib <- function() {
   library(nichenetr)
   library(BiocManager)
