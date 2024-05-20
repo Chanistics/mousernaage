@@ -1,6 +1,6 @@
 Package: mousernaage
-Title: Data pre-processing tool for mouse transcriptome age calculation 
-Version: 0.0.0.1
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
 Authors@R: 
     person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))

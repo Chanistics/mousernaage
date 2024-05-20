@@ -4,7 +4,7 @@
 
 prereq <- function() {
   devtools::install_github("saeyslab/nichenetr") 
-  #BiocManager 유전체 분석 tool 설치 
+  #BiocManager 
   install.packages("BiocManager")
   library(BiocManager)
   BiocManager::install("org.Mm.eg.db")
