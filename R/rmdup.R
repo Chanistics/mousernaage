@@ -7,6 +7,7 @@
 #' @export
 
 rmdup <-function() {
+  prac <<- hu
   prac <<- prac[!duplicated(prac$Geneid),]
   prac <<- prac[!(prac$Geneid == 'NA'), ]
   prac <<- na.omit(prac)
