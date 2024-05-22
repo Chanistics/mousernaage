@@ -8,5 +8,4 @@
 mhconvert <-function() {
   Geneid = ms$msgene %>% convert_mouse_to_human_symbols()
   hu <<- cbind(Geneid, ms)
-  hu$msgene <<- NULL
 }
